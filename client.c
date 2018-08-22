@@ -19,7 +19,7 @@ int main()
 	ca.sin_family=AF_INET;
 	ca.sin_port=htons(6000);
 	ca.sin_addr.s_addr=inet_addr("127.0.0.1");
-	while(!(strcmp("exit",buf))==0)
+	while(!(strcmp("exit",buf2))==0)
 	{
 	printf("enter the message\n");	
 	gets(buf);
